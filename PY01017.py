@@ -1,17 +1,11 @@
-check = True
-p = "ABCDEFGHIJKLMNOPQRSTUVWXYZ_."
-while check :
+test = int(input())
+for _ in range(test):
     s = input()
-    if s == "0" :
-        check = False
-    else :
-        n , ss = s.split()
-        sKetQua = ""
-        indexAscii = -1
-        for i in range(len(ss)) :
-            if(ss[i] == "_") : indexAscii = 26
-            elif ss[i] == "." : indexAscii = 27
-            else : indexAscii = ord(ss[i]) - ord("A")
-            indexAscii = (int(n) + indexAscii) % 28
-            sKetQua = p[indexAscii] + sKetQua
-        print(sKetQua)
+    count = 1
+    for i in range(1 , len(s)):
+        if s[i] == s[i - 1]:
+            count += 1
+        else :
+            print(count , s[i - 1], sep = "" , end="" )
+            count = 1
+    print(count , s[-1] , sep = "" , end="\n")
