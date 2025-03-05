@@ -1,0 +1,1 @@
+{"name":"Local: PY02036","url":"c:\\Users\\luong\\OneDrive\\Documents\\Python_CodePtit\\PY02036.py","tests":[{"id":1741182345239,"input":"5\n3 7 9 6 13","output":"3 7\n3 13\n6 7\n6 13\n7 9\n7 13\n9 13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\luong\\OneDrive\\Documents\\Python_CodePtit\\PY02036.py","group":"local","local":true}
