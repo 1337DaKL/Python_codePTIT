@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Python_CodePtit.iml" filepath="$PROJECT_DIR$/.idea/Python_CodePtit.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/pythonCodePTIT.iml" filepath="$PROJECT_DIR$/.idea/pythonCodePTIT.iml" />
+>>>>>>> fa4704e (ok)
     </modules>
   </component>
 </project>
