@@ -1,1 +1,0 @@
-{"name":"Local: PY04007","url":"/home/trinhdacluong/Documents/pythonCodePTIT/Python_codePTIT/PY04007.py","tests":[{"id":1741747879589,"input":"1\n2  2\n1  2\n3  4","output":"5 11\n11 25"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/trinhdacluong/Documents/pythonCodePTIT/Python_codePTIT/PY04007.py","group":"local","local":true}
